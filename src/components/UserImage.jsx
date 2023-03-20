@@ -9,7 +9,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://backendofnetwork.onrender.com:3001/assets/${image}`}
+        src={`https://backendofnetwork.onrender.com/assets/${image}`}
       ></img>
     </Box>
   );
