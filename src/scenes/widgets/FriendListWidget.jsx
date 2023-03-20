@@ -12,7 +12,7 @@ const FriendListWidget = ({ userId }) => {
   const token = useSelector((state) => state.token);
   const getFriends = async () => {
     const response = await fetch(
-      `http://localhost:3001/users/${userId}/friends`,
+      `https://backendofnetwork.onrender.com:3001/users/${userId}/friends`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
